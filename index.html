@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rush Hour (WIP)</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/playerD.png" type="image/x-icon">
+
+    <script src="TileReference.js" defer></script>
+    <script src="Map.js" defer></script>
+    <script src="Enemy.js" defer></script>
+    <script src="Inspector.js" defer></script>
+    <script src="Rats.js" defer></script>
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+
+    <div id="bg"></div>
+
+    <div id="counter">
+        <p><img src="images/Rat_R.png" alt=""><img src="images/U-Bahn_Polizist_R.png" alt=""><img
+                src="images/playerR.png" alt=""></p>
+        <p>&nbsp;</p>
+        <p><b>RUSH HOUR JS</b></p>
+        <p>&nbsp;</p>
+        <p>FPS: <span id="fpsCounter"></span></p>
+        <p>&nbsp;</p>
+        <p>Move: WASD / Arrow Keys</p>
+        <p>Mute: M</p>
+        <p>&nbsp;</p>
+        <p><i>UI IN PROGRESS</i></p>
+
+    </div>
+
+    <p id="bottomLeftText">By<br>Leonard Kiefner<br>Thorben Meier<br>Emil Wilde</p>
+
+    <div id="container">
+
+        <canvas id="canvas">
+
+            <!--its easier to preload them here-->
+            <img id="A" src="./images/A.png" alt="">
+            <img id="B" src="./images/B.png" alt="">
+            <img id="C" src="./images/C.png" alt="">
+            <img id="D" src="./images/D.png" alt="">
+            <img id="E" src="./images/E.png" alt="">
+            <img id="F" src="./images/F.png" alt="">
+            <img id="G" src="./images/G.png" alt="">
+            <img id="H" src="./images/H.png" alt="">
+            <img id="I" src="./images/I.png" alt="">
+            <img id="J" src="./images/J.png" alt="">
+            <img id="K" src="./images/K.png" alt="">
+            <img id="L" src="./images/L.png" alt="">
+            <img id="M" src="./images/M.png" alt="">
+            <img id="O" src="./images/O.png" alt="">
+            <img id="P" src="./images/P.png" alt="">
+            <img id="R" src="./images/R.png" alt="">
+            <img id="S" src="./images/S.png" alt="">
+            <img id="T" src="./images/T.png" alt="">
+            <img id="U" src="./images/U.png" alt="">
+            <img id="V" src="./images/V.png" alt="">
+            <img id="W" src="./images/W.png" alt="">
+
+        </canvas>
+
+        <div id="textArea">
+            <p id="taLeft"><span id="timer"></span><br>&nbsp;<br>
+                <span id="extraText"></span></p>
+            <p id="taRight"><span id="lifes"></span> &nbsp;&nbsp;&nbsp; <span id="money"></span></p>
+
+        </div>
+
+
+
+    </div>
+
+    <!--<p id="topCenterText"><span id="timer"></span><br>&nbsp;<br>
+        <span id="extraText"></span>
+    </p>
+    <p id="bottomCenterText"><span id="lifes"></span> &nbsp;&nbsp;&nbsp; <span id="money"></span></p>-->
+
+
+
+
+
+
+
+</body>
+
+</html>
